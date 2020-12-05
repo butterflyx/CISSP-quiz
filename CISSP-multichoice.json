@@ -1,0 +1,33 @@
+{
+	"meta" : {
+        "title" : "CISSP preparation quiz",
+		"author" : "Jean-Christoph von Oertzen, info@jeanchristophvonoertzen.com",
+		"licence" : "CC BY 3.0 DE <https://creativecommons.org/licenses/by/3.0/de/>",
+		"homepage" : "https://jeanchristophvonoertzen.com",
+		"contributors" : []
+	},
+	"quiz" : {
+		"Understand and apply concepts of confidentiality, integrity and availability" : {
+			"1" : {
+			"question" : "What are typical controls applied with confidentiality?",
+			"answers" : { 
+					"A" : "Encryption",
+					"B" : "Hashing",
+					"C" : "Access control",
+					"D" : "Dual control" 
+				},
+			"right" : ["A","C"]
+            },
+			"2" : {
+			"question" : "The principle of least privillege is used for which realm of the iron triangle?",
+			"answers" : { 
+					"A" : "Confidentiality",
+					"B" : "Integrity",
+					"C" : "Availability"
+				},
+			"right" : ["A"]
+            }
+			
+        }
+    }
+}
